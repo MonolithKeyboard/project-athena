@@ -589,4 +589,5 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/angular,node,vs,visualstudiocode
-athena/.vscode/launch.json
+.vscode/launch.json
+.vscode
