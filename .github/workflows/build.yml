@@ -33,7 +33,7 @@ jobs:
         run: npm run build --prefix ./athena --if-present
       
       - name: Run tests
-        run: npm test --prefix ./athena
+        run: npm run test --prefix ./athena
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
