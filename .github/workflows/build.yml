@@ -39,6 +39,8 @@ jobs:
         uses: paambaati/codeclimate-action@v8.0.0
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.cc_reporter_id }}
+        with:
+          coverageLocations: ./athena/coverage
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
