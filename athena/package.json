@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test --karma-config ./karma.conf.js",
+    "test-coverage": "ng test --code-coverage --karma-config ./karma.conf.js",
     "serve:ssr:athena": "node dist/athena/server/server.mjs"
   },
   "private": true,
